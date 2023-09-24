@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Lanchonete {
-    Scanner teclado = new Scanner(System.in)
+    Scanner teclado = new Scanner(System.in);
     double valor0=0,valor1=0,valor2=0,valor3=0, valor4=0,valor5=0,total=0;
     int quant=0;
     
