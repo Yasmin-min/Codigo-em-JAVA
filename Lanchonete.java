@@ -1,5 +1,6 @@
 import java.util.Scanner;
 public class Lanchonete {
+   public static void main(String[] args) {
     Scanner teclado = new Scanner(System.in);
     double valor0=0,valor1=0,valor2=0,valor3=0, valor4=0,valor5=0,total=0;
     int quant=0;
@@ -55,4 +56,5 @@ public class Lanchonete {
        System.out.printf("\n104: %.2f \n105: %.2f\n",valor4,valor5);
        System.out.printf("\nVALOR TOTAL A SER PAGO: %.2f",total);
        teclado.close();
+}
 }
